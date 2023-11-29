@@ -1,0 +1,138 @@
+@media (min-width: 992px) {
+  .container {
+    width: 900px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (max-width: 1399.98px) {
+  /* ===== Nav Section ===== */
+  /* ===== Desktop ===== */
+  .navbar-desktop {
+    right: 2.5%;
+  }
+}
+@media (max-width: 1199.98px) {
+  /* ===== Nav Section ===== */
+  .navbar-desktop {
+    display: none !important;
+  }
+  .navbar-mobile {
+    display: block !important;
+    background-color: var(--bg-color-02) !important;
+    padding: 2rem 1rem;
+  }
+  .navbar-mobile .navbar-logo > a {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .navbar-toggler:focus {
+    box-shadow: initial !important;
+  }
+  .navbar-toggler {
+    border: 0 !important;
+    outline: 0 !important;
+  }
+  .mobile-menu-icon {
+    font-size: 2.5rem;
+  }
+  .offcanvas-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #777 !important;
+  }
+  .btn-close {
+    font-size: 1.75rem;
+  }
+  .offcanvas {
+    background-color: var(--bg-color-02) !important;
+  }
+  .navbar-mobile .navbar-menu li {
+    padding: 2.75rem 1.25rem !important;
+  }
+  .navbar-mobile .navbar-menu li a {
+    font-size: 1.5rem;
+    letter-spacing: 0.25px;
+    font-weight: 500;
+  }
+  .nav-link {
+    color: #777 !important;
+    border-top: 0;
+    border-bottom: 0;
+  }
+  .navbar-mobile .nav-item:nth-of-type(2),
+  .navbar-mobile .nav-item:nth-of-type(3),
+  .navbar-mobile .nav-item:nth-of-type(4),
+  .navbar-mobile .nav-item:nth-of-type(5) {
+    border-top: 1px solid var(--text-color-02) !important;
+    border-bottom: 1px solid var(--text-color-02) !important;
+  }
+  .navbar-nav {
+    flex-direction: column !important;
+  }
+  .nav-item > a:hover {
+    color: #fff !important;
+  }
+}
+@media (max-width: 991.98px) {
+  .sub-title {
+    font-size: 2.5rem;
+  }
+  .profile-details {
+    padding-left: 1.75rem !important;
+  }
+  .detail-para {
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+    margin-bottom: 0 !important;
+  }
+  .detail-para span {
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+  }
+  .cv-btn,
+  .hire-btn {
+    padding: 1.25rem 1.5rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .sub-title {
+    font-size: 2.5rem;
+  }
+  .profile-details {
+    padding-left: 0.75rem !important ;
+  }
+  .detail-para {
+    font-size: 1.75rem;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .detail-para span {
+    font-size: 1.75rem;
+    letter-spacing: 1px;
+  }
+}
+@media (max-width: 575.98px) {
+  .container {
+    padding-inline: 3rem !important;
+  }
+  /* ===== Nav Section ===== */
+  .offcanvas {
+    max-width: 75% !important;
+  }
+  /* ===== Footer ===== */
+  .footer-icons {
+    padding: 5rem 2rem;
+  }
+  .footer-icons a:not(:last-of-type) {
+    margin-right: 1.5rem;
+  }
+  .footer-icons a i {
+    font-size: 4rem;
+  }
+}
