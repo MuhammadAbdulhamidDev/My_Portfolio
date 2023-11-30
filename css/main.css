@@ -50,6 +50,14 @@ a,
   -ms-transition: all 0.5s !important;
   -o-transition: all 0.5s !important;
 }
+.projects-link,
+.active {
+  transition: all 0.25s !important;
+  -webkit-transition: all 0.25s !important;
+  -moz-transition: all 0.25s !important;
+  -ms-transition: all 0.25s !important;
+  -o-transition: all 0.25s !important;
+}
 .section-padding {
   padding-block: 7rem;
 }
@@ -93,6 +101,7 @@ a,
 }
 .navbar-desktop .active:hover {
   color: var(--text-color-02) !important;
+  color: #fff !important;
 }
 .navbar-menu li:hover a {
   color: #999999 !important;
